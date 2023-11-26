@@ -2,26 +2,26 @@ const fs = require('fs')
 
 const { existsSync } = require('fs')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("6288296172396,6288296172396")
+global.owner = process.env.OWNER_NUMBER.split("263719647303")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'fizzfeedback@gmail.com'
-global.github = 'https://github.com/SamPandey001/Secktor-Md'
+global.email = 'darrelmucheri@gmail.com'
+global.github = 'https://github.com/Mr Fr3nk/SubZero V3'
 global.location = 'Sultanpur IN'
-global.sudo = process.env.SUDO || '6288296172396'
-global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+6288296172396
+global.sudo = process.env.SUDO || '263719647303'
+global.website = 'https://mrfrank-ofc.vercel.app' //wa.me/+6288296172396
 module.exports = {
-  botname: process.env.BOT_NAME || '𝑯𝒊𝒏𝒂𝒕𝒂 𝑩𝒐𝒕',
-  ownername:process.env.OWNER_NAME || '𝑭𝒊𝒛𝒛𝒙',
+  botname: process.env.BOT_NAME || 'SubZero V3',
+  ownername:process.env.OWNER_NAME || 'Mr Frank',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0], 
   packname: process.env.PACK_INFO.split(";")[1],
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || '62',
   antifake : process.env.FAKE_COUNTRY_CODE || '50',
   readmessage: process.env.READ_MESSAGE || true,
   prefix: process.env.PREFIX || ['.'],
-  nsfw_detect_ai : process.env.NSFW_DETECTION_AI || 'false',
+  nsfw_detect_ai : process.env.NSFW_DETECTION_AI || 'true',
   pmpermit: process.env.PMPERMIT || "false",
   mongodb_url: process.env.MONGODB_URI || "Enter-Mongo-URI-HERE",
   warncount : process.env.WARN_COUNT || 3,
