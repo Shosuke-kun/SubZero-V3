@@ -1,5 +1,5 @@
 {
-  "name": "Secktor-Md",
+  "name": "SubZero V3",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "theme bot","multi device"],
@@ -8,11 +8,11 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Your Name."
+      "value": "Mr Frank"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :false
+     "required" :true
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
@@ -20,7 +20,7 @@
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
@@ -52,7 +52,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "919628516236"
+       "value": "263719647303"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
@@ -60,7 +60,7 @@
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
        "value": "Replace Me",
-       "required" :false
+       "required" :true
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see in Welcome when a new user joins a Group.",
@@ -72,7 +72,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "SECKTOR"
+     "value": "ZEROTWO"
   },
      "HEROKU_API_KEY": {
     "description": "Enter your Heroku api key."
@@ -91,7 +91,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Secktor",
+     "value": "Sticker By;Mr Frank",
      "required": false 
   }
 },
