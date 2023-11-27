@@ -10,16 +10,16 @@ module.exports = {
         var diffuser = citel.sender.split("@")[0];
         let fetchk = require("node-fetch");
         var textuser = args.join(" ");
-        let fetchtext = await fetchk(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${diffuser}]&msg=[${textuser}]`);
+        let fetchtext = await fetchk(`https://api.brainshop.ai/wechat?bid=178717&key=4GFkLUWvWCg3wJW9[${diffuser}]&msg=[${textuser}]`);
         let json = await fetchtext.json();
         let { cnt } = json;
         citel.reply(cnt);
         return;
     }
-    if (!args.join(" ")) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`);
+    if (!args.join(" ")) return citel.reply(`Hey there!🤗 ${citel.pushName}. How are you doing these days?,Iam SubZero AI nice to meet you😊💕`);
     const { Configuration, OpenAIApi } = require("openai");
     const configuration = new Configuration({
-        apiKey: process.env.OPENAI_API_KEY || "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",
+        apiKey: process.env.OPENAI_API_KEY || "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",
     });
     const openai = new OpenAIApi(configuration);
     let textt = args.join(" ")
